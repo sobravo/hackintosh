@@ -19,11 +19,17 @@
 
 ### 4. 软件准备
 - gibMacOS：https://github.com/corpnewt/gibMacOS
+- 执行gibMacOS.command
+- 输入R进入恢复镜像模式
+- 选择最新版本
+- 下载完毕
+- 
 
 ### 5. BIOS设置
 - 禁止
 - 打开
 ### 6. 制作安装U盘
+- 运行gibMacOS.command
 
 ### 7. 配置OpenCore
  
