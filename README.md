@@ -18,6 +18,7 @@
 - USB配置
 
 ### 4. 软件准备
+- gibMacOS：https://github.com/corpnewt/gibMacOS
 
 ### 5. BIOS设置
 - 禁止
