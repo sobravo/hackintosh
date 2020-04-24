@@ -40,6 +40,6 @@
   - 格式为Mac OS Extended(Journaled)
   - Scheme为GUID
   - 执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
- - 执行./MountEFI.command，挂接OpenCore的EFI环境
+ - 挂载OpenCore的EFI环境，执行./MountEFI.command
 ### 7. 配置OpenCore
  
