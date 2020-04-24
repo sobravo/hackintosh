@@ -19,6 +19,7 @@
 
 ### 4. 软件准备
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS ，下载压缩包直接解压
+- 获取MountEFI：https://github.com/corpnewt/MountEFI
 
 
 ### 5. BIOS设置
@@ -39,7 +40,6 @@
   - 格式为Mac OS Extended(Journaled)
   - Scheme为GUID
   - 执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
- - 
-
+ - 执行./MountEFI.command，设置OpenCore的EFI环境
 ### 7. 配置OpenCore
  
