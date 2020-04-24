@@ -14,8 +14,8 @@
 ### 2. 常用术语
 
 ### 3. 硬件准备
-- 安装环境
-- USB配置
+- 安装环境：MacAir 13
+- USB配置：SanDisk CZ430酷豆 USB3.1 128GB
 
 ### 4. 软件准备
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS ，下载压缩包直接解压
