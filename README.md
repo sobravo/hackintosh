@@ -24,11 +24,7 @@
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS ，下载压缩包直接解压
 - 获取MountEFI：https://github.com/corpnewt/MountEFI
 
-
-### 5. BIOS设置
-- 禁止
-- 打开
-### 6. 制作安装U盘
+### 5. 制作安装U盘
 - 制作安装镜像
   - 执行gibMacOS.command，下载MacOS镜像
   - 执行1，选择最新版本
@@ -45,20 +41,25 @@
   - 执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
  - 挂载OpenCore的EFI分区，执行./MountEFI.command
 
-### 7. 设置EFI
+### 6. 设置EFI
 - BOOT？
 - 删除以下Drivers
 - 删除Tools下的所有文件，可以保留OpenShell.efi
 - 确认最终结果
-### 8. 配置OpenCore
+
+### 7. 配置OpenCore
 - 配置规则
   - SSDTs和custom DSDTs(.aml)放在ACPI目录
   - Kexts(.kext)放在Kexts目录
   - Firmware drivers(.efi) 放在Drivers目录
 ### 8. 设置CONFIG.PLIST（Coffee Lake配置）
 
-### 9. 安装
+### 9. BIOS设置
+- 禁止
+- 打开
 
-### 10. 后处理
+### 10. 安装
+
+### 11. 后处理
 - 脱离U盘启动
 - 优化
