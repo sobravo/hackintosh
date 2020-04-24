@@ -25,15 +25,21 @@
 - 禁止
 - 打开
 ### 6. 制作安装U盘
-- 执行gibMacOS.command，下载MacOS镜像
-- 执行1，选择最新版本
-<!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
-<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
+- 制作安装镜像
+  - 执行gibMacOS.command，下载MacOS镜像
+  - 执行1，选择最新版本
+  <!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
+  <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
  
-- 下载完毕
-- 执行BuildmacOSInstallApp.command命令，制作安装镜像
-- 
-
+  - 下载完毕
+  - 执行BuildmacOSInstallApp.command命令，下载OpenCore
+  - 将macOS Downloads目录拖拽到命令行窗口，继续执行
+- 格式化U盘:这样会创建两个分区：MyVolumn和EFI
+  - 卷名修改为MyVolumn
+  - 格式为Mac OS Extended(Journaled)
+  - Scheme为GUID
+  - 执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+ - 
 
 ### 7. 配置OpenCore
  
