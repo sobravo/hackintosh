@@ -52,6 +52,10 @@
   - SSDTs和custom DSDTs(.aml)放在ACPI目录
   - Kexts(.kext)放在Kexts目录
   - Firmware drivers(.efi) 放在Drivers目录
-### 设置CONFIG.PLIST（Coffee Lake配置）
+### 8. 设置CONFIG.PLIST（Coffee Lake配置）
 
-### 后处理
+### 9. 安装
+
+### 10. 后处理
+- 脱离U盘启动
+- 优化
