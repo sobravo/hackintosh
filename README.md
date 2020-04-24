@@ -33,7 +33,8 @@
  
   - 下载完毕
   - 执行BuildmacOSInstallApp.command命令，下载OpenCore
-  - 将macOS Downloads目录拖拽到命令行窗口，继续执行
+  - 将macOS Downloads目录拖拽到命令行窗口,目录名一定要到最底一层(gibMacOS-master/macOS\ Downloads/publicrelease/061-96006\ -\ 10.15.4\ macOS\ Catalina )，继续执行
+  <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-5.jpg"/>
 - 格式化U盘:这样会创建两个分区：MyVolumn和EFI
   - 卷名修改为MyVolumn
   - 格式为Mac OS Extended(Journaled)
