@@ -19,19 +19,20 @@
 
 ### 4. 软件准备
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS，下载压缩包直接解压
-- 执行<p>gibMacOS.command</p>，下载MacOS镜像
-- 执行1，选择最新版本
-<!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
-<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
-- 下载完毕
 
-- 执行BuildmacOSInstallApp.command命令，进行
 
 ### 5. BIOS设置
 - 禁止
 - 打开
 ### 6. 制作安装U盘
-- 运行gibMacOS.command
+- 执行gibMacOS.command，下载MacOS镜像
+- 执行1，选择最新版本
+<!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
+<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
+- 下载完毕
+- 执行BuildmacOSInstallApp.command命令，制作安装镜像
+- 
+
 
 ### 7. 配置OpenCore
  
