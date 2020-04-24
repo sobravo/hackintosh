@@ -19,7 +19,7 @@
 
 ### 4. 软件准备
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS，下载压缩包直接解压
-- 执行'''gibMacOS.command'''，下载MacOS镜像
+- 执行<p>gibMacOS.command</p>，下载MacOS镜像
 - 执行1，选择最新版本
 <!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
 <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
