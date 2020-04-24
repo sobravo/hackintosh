@@ -40,6 +40,16 @@
   - 格式为Mac OS Extended(Journaled)
   - Scheme为GUID
   - 执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
- - 挂载OpenCore的EFI环境，执行./MountEFI.command
-### 7. 配置OpenCore
+ - 挂载OpenCore的EFI分区，执行./MountEFI.command
+
+### 7. 设置EFI
+- BOOT？
+- 删除以下Drivers
+- 删除Tools下的所有文件，可以保留OpenShell.efi
+- 确认最终结果
+### 8. 配置OpenCore
+- 配置规则
+  - SSDTs和custom DSDTs(.aml)放在ACPI目录
+  - Kexts(.kext)放在Kexts目录
+  - Firmware drivers(.efi) 放在Drivers目录
  
