@@ -12,6 +12,9 @@
  |存储|西数 SN750 1TB * 2|
 
 ### 2. 常用术语
+- Vanilla：这里特指一种黑苹果的安装方式，也是当前唯一推荐的安装方式，其他的方式还有Unibeast，Multibeast，Distros，这三种都不推荐使用。本文就是按照Vanilla步骤组织黑苹果的安装顺序。
+- Clover：
+- OpenCore：
 
 ### 3. 硬件准备
 - 安装环境：MacAir 13
