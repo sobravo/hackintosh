@@ -21,7 +21,7 @@
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS
 - 执行gibMacOS.command
 - 输入R进入恢复镜像模式
-![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png)
+:![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png)
 - 选择最新版本
 - 下载完毕
 - 
