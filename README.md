@@ -18,7 +18,7 @@
 - USB配置
 
 ### 4. 软件准备
-- 获取gibMacOS：https://github.com/corpnewt/gibMacOS，下载压缩包直接解压
+- 获取gibMacOS：https://github.com/corpnewt/gibMacOS ，下载压缩包直接解压
 
 
 ### 5. BIOS设置
@@ -29,6 +29,7 @@
 - 执行1，选择最新版本
 <!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
 <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
+ 
 - 下载完毕
 - 执行BuildmacOSInstallApp.command命令，制作安装镜像
 - 
