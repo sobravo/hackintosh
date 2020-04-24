@@ -23,6 +23,7 @@
 - 输入R进入恢复镜像模式
 <!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
 <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
+
 - 选择最新版本
 - 下载完毕
 - 
