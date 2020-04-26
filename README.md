@@ -93,7 +93,7 @@
 - ProperTree会自动在config.plist里添加SDDTs，kexts，efi，对于存在依赖关系的会自动排序，对于不需要的配置项会自动删除，非常方便
 - 参考这个基于Coffee Lake的描述，逐个设置配置项：https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html ，这里单列了一些推荐之外的调整，大家可以根据自己的情况调整：
   - 在设置aml的时候如果发现跟上一章不一致，以本章为准，可能需要重新下载编译aml？不一定
-  - DEBUG Level：第一次安装时发现黑屏，后续调试的时候加上的
+  - DEBUG Level：第一次安装时发现黑屏，后续调试的时候加上的，80，打印各种级别的日志，并记录日志
   - 还有一个显卡的：第一次安装时发现黑屏，后续调试的时候加上的
   - 显示器是4K分辨率，字体太小，修改为1080p
   - 用文本的渲染引擎
@@ -101,9 +101,22 @@
 - 在ProperTree中保存设置，并将整个OC目录复制到U盘，至此完成安装盘的初始化制作
 
 ### 10. BIOS设置
-- 禁止
-- 真的好吗
-- 打开
+|类型|推荐设置项|说明|
+|---|---|---|
+|禁止|Fast Boot| |
+|禁止|VT-d|DisableIoMapper设置YES后可以打开|
+|禁止|CSM| |
+|禁止|Thunderbolt|不涉及|
+|禁止|Intel SGX||
+|禁止|Intel Platform Trust|没找到？|
+|禁止|CFG Lock||
+|打开|VT-x||
+|打开|Above 4G decoding||
+|打开|Hyper-Threading||
+|打开|Execute Disable Bit||
+|打开|EHCI/XHCI Hand-off||
+|打开|OS type: Windows 8.1/10 UEFI Mode||
+|打开|DVMT Pre-Allocated(iGPU Memory): 64MB|没有集显，不涉及|
 
 ### 11. 安装
 
