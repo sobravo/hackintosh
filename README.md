@@ -7,18 +7,22 @@
  |主板|华硕-ROG-STRIX Z390-I GAMING|
  |无线网卡|Intel Wireless-AC 9560, 主板集成，未更换博通免驱网卡|
  |有线网卡|Intel I219-V 千兆网卡, 主板集成|
+ |声卡|ROG SupremeFX 8 声道 高清晰音频编码解码器Realtek S1220A，主板集成|
  |显卡|华硕-ROG-STRIX-RX5700XT-O8G|
  |内存|美商海盗船 统治者白金 DDR4 3200 16G * 2|
  |存储|西数 SN750 1TB * 2|
+ |键盘|罗技 K580|
+ |鼠标|罗技 Mx Master2|
 
 ### 2. 常用术语
 - Vanilla：这里特指一种黑苹果的安装方式，也是当前唯一推荐的安装方式，其他的方式还有Unibeast，Multibeast，Distros，这三种都不推荐使用。本文就是按照Vanilla步骤组织黑苹果的安装顺序。
 - Clover：
 - OpenCore：
+- SSDTs：
 
 ### 3. 硬件准备
 - 安装环境：MacAir 13, Mac OS Catalina 10.15.3
-- USB配置：SanDisk CZ430酷豆 USB3.1 128GB
+- U盘：SanDisk CZ430酷豆 USB3.1 128GB
 
 ### 4. 软件准备
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS ，下载压缩包直接解压
