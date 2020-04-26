@@ -23,6 +23,8 @@
 ### 4. 软件准备
 - 获取gibMacOS：https://github.com/corpnewt/gibMacOS ，下载压缩包直接解压
 - 获取MountEFI：https://github.com/corpnewt/MountEFI
+- OpenCore 0.5.7，Debug和Release版本各下一份备用: https://github.com/acidanthera/OpenCorePkg/releases
+- ProperTree：https://github.com/corpnewt/ProperTree
 
 ### 5. 制作安装U盘
 - 下载MacOS镜像：
