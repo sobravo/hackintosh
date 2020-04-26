@@ -35,14 +35,14 @@
    - 将macOS Downloads目录拖拽到命令行窗口,目录名一定要到最底一层(gibMacOS-master/macOS\ Downloads/publicrelease/061-96006\ -\ 10.15.4\ macOS\ Catalina )，继续执行
    <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-5.jpg"/>
     - 执行完毕，生成安装程序：Install macOS Catalina.app
-    此处有图
+    - 此处有图
 - 格式化U盘:这样会创建两个分区：MyVolumn和EFI
   - 卷名修改为MyVolumn，格式为Mac OS Extended(日志)，分区为GUID；
    <div align=left><img 此处有图  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
   - 制作Catalina安装U盘，执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
-  此次有图
+  - 此次有图
  - 挂载OpenCore的EFI分区，执行./MountEFI.command
-
+ - 这时候会出现一个空的EFI分区
 ### 6. 设置EFI
 - BOOT？
 - 删除以下Drivers
