@@ -95,10 +95,10 @@
 - ProperTree会自动在config.plist里添加SDDTs，kexts，efi，对于存在依赖关系的会自动排序，对于不需要的配置项会自动删除，非常方便
 - 参考这个基于Coffee Lake的描述，逐个设置配置项：https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html ，这里单列了一些推荐之外的调整，大家可以根据自己的情况调整：
   - 在设置aml的时候如果发现跟上一章不一致，以本章为准，可能需要重新下载编译aml？不一定
-  - DEBUG Level：第一次安装时发现黑屏，后续调试的时候加上的，80，打印各种级别的日志，并记录日志
-  - 还有一个显卡的：第一次安装时发现黑屏，后续调试的时候加上的
-  - 显示器是4K分辨率，字体太小，修改为1080p
-  - 用文本的渲染引擎
+  - MISC->DEBUG->DisplayLevel：第一次安装时发现黑屏，后续调试的时候加上的，83，打印各种级别的日志，并记录日志
+  - NVRAM->Add->7C...->boot-arg: 第一次安装时发现黑屏，后续调试的时候加上的agdpmod=pikera。跟显卡相关，上网搜的,试试看。
+  - UEFI->OUTPUT->Resolution: 显示器是4K分辨率，字体太小，修改为1080p
+  - UEFI->OUTPUT->TextRenderer: 用文本的渲染引擎SystemText
 - 做一下最后的校验，有问题修复：https://opencore.slowgeek.com/
 - 在ProperTree中保存设置，并将整个OC目录复制到U盘，至此完成安装盘的初始化制作
 
