@@ -25,15 +25,18 @@
 - 获取MountEFI：https://github.com/corpnewt/MountEFI
 
 ### 5. 制作安装U盘
-- 下载MacOS镜像：执行gibMacOS.command
+- 下载MacOS镜像：
+  - 执行gibMacOS.command
   - 选1，下载最新版本<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
   - 下载完毕
-- 制作Catalina安装程序：执行BuildmacOSInstallApp.command命令
+- 制作Catalina安装程序：
+  - 执行BuildmacOSInstallApp.command命令
   - 将macOS Downloads目录拖拽到命令行窗口,目录名一定要到最底一层(gibMacOS-master/macOS\ Downloads/publicrelease/061-96006\ -\ 10.15.4\ macOS\ Catalina )，继续执行<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-5.jpg"/>
   - 执行完毕，生成安装程序：Install macOS Catalina.app
   - 此处有图
-- 格式化U盘:这样会创建两个分区：MyVolumn和EFI
-  - 卷名修改为MyVolumn，格式为Mac OS Extended(日志)，分区为GUID；<div align=left><img 此处有图  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
+- 格式化U盘:
+  - 这样会创建两个分区：MyVolume和EFI，EFI缺省未挂载，所以当前还看不见
+  - 卷名修改为MyVolume，格式为Mac OS Extended(日志)，分区为GUID；<div align=left><img 此处有图  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
 - 制作Catalina安装U盘，执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
   - 此次有图
 - 挂载OpenCore的EFI分区，执行./MountEFI.command
