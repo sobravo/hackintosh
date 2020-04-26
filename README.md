@@ -82,7 +82,7 @@
 - 如果是第一次接触，需要仔细阅读，搞清楚之后实际操作很简单
   - 仔细阅读https://dortania.github.io/Getting-Started-With-ACPI/
   - 有Easy Way和Long Way这两种选择，我这里用的是Easy Way
-- 在目标机器（就是要装黑苹果的机器，不要弄错了）上执行SSDTs
+- 在目标机器（就是要装黑苹果的机器，不要弄错了）上执行SSDTTime
   - 选择4：Dump DSDT
   - 选择3：FakeEC
   - 选择2：PluginType
