@@ -17,7 +17,7 @@
 - OpenCore：
 
 ### 3. 硬件准备
-- 安装环境：MacAir 13, Mac OS Catalina 10.15.4
+- 安装环境：MacAir 13, Mac OS Catalina 10.15.3
 - USB配置：SanDisk CZ430酷豆 USB3.1 128GB
 
 ### 4. 软件准备
@@ -30,15 +30,14 @@
   - 执行1，选择最新版本
   <!-- ![](https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png) -- Can't align to the left, be check in the future -->
   <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
- 
+  <div align="center">![an image][https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png] 下载镜像 </div>
   - 下载完毕
   - 执行BuildmacOSInstallApp.command命令，下载OpenCore
   - 将macOS Downloads目录拖拽到命令行窗口,目录名一定要到最底一层(gibMacOS-master/macOS\ Downloads/publicrelease/061-96006\ -\ 10.15.4\ macOS\ Catalina )，继续执行
   <div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-5.jpg"/>
 - 格式化U盘:这样会创建两个分区：MyVolumn和EFI
-  - 卷名修改为MyVolumn
-  - 格式为Mac OS Extended(Journaled)
-  - Scheme为GUID
+  - 卷名修改为MyVolumn，格式为Mac OS Extended(Journaled)，Scheme为GUID；
+   <div align=left><img 此处有图  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
   - 执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
  - 挂载OpenCore的EFI分区，执行./MountEFI.command
 
