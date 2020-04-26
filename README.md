@@ -77,18 +77,28 @@
 ### 8. 配置SSDTs
 - 如果是第一次接触，需要仔细阅读，搞清楚之后实际操作很简单
   - 仔细阅读https://dortania.github.io/Getting-Started-With-ACPI/
-  - 有Easy Way和Long Way这两种选择，我这里用的是Easy Way就搞定了
+  - 有Easy Way和Long Way这两种选择，我这里用的是Easy Way
 - 在目标机器（就是要装黑苹果的机器，不要弄错了）上执行SSDTs
   - 选择4：Dump DSDT
   - 选择3：FakeEC
   - 选择2：PluginType
-  - 要确认导出的文件在哪，可能有点问题
+  - 要确认导出的文件在哪，可能有点问题，我好想直接取的是OC里的，这样也行？
 - 根据平台类型，挑选涉及的aml文件，我这里选的是Desktop-CoffeLake
 - 复制aml文件到OC对应的目录
 - config.plist中需要添加相应配置，遗留到第9章处理
 
 ### 9. 设置CONFIG.PLIST（Coffee Lake配置）
-- 在设置aml的时候如果发现跟上一章不一致，以本章为准，可能需要重新下载编译aml
+- 将下载的OpenCore\Docs里的Sample.plist改名config.plist，并复制到OC
+- 运行ProperTree，Cmd + Shift + R选取OC 
+- ProperTree会自动在config.plist里添加SDDTs，kexts，efi，对于存在依赖关系的会自动排序，对于不需要的配置项会自动删除，非常方便
+- 参考这个基于Coffee Lake的描述，逐个设置配置项：https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html ，这里单列了一些推荐之外的调整，大家可以根据自己的情况调整：
+  - 在设置aml的时候如果发现跟上一章不一致，以本章为准，可能需要重新下载编译aml？不一定
+  - DEBUG Level：第一次安装时发现黑屏，后续调试的时候加上的
+  - 还有一个显卡的：第一次安装时发现黑屏，后续调试的时候加上的
+  - 显示器是4K分辨率，字体太小，修改为1080p
+  - 用文本的渲染引擎
+- 做一下最后的校验，有问题修复：https://opencore.slowgeek.com/
+- 在ProperTree中保存设置，并将整个OC目录复制到U盘，至此完成安装盘的初始化制作
 
 ### 10. BIOS设置
 - 禁止
