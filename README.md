@@ -59,8 +59,7 @@
   - XhciDxe.efi
   - HiiDatabase.efi
   - HiiDatabase.efi
-- 删除Tools下的所有文件，可以保留OpenShell.efi
-- 确认最终结果，此处有图
+- 删除Tools下的所有文件，可以保留OpenShell.efi<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/6-1.jpg"/>
 
 ### 7. 配置OpenCore中的固件和驱动
 - 驱动的选择是高度定制化的，需要根据实际硬件配置选择，这里列出的仅仅匹配我现在的硬件配置，仅供大家参考。建议在实际配置的时候，仔细研读OpenCore Vanilla Guide中的Gathering file章节，做到心中有数。完整的过程大致分为两个阶段，本章（包括后续量章）是第一阶段，主要是确保硬件基本可用，在后处理章节还有硬件进一步的调优。
