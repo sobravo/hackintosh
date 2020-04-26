@@ -45,7 +45,7 @@
   - 将Install macOS Catalina.app复制到/Applications目录下
 - 格式化U盘:
   - 这样会创建两个分区：MyVolume和EFI，EFI缺省未挂载，所以当前还看不见
-  - 卷名修改为MyVolume，格式为Mac OS Extended(日志)，分区为GUID；<div align=left><img 此处有图  src="https://github.com/sobravo/hackintosh/blob/master/img/gibMacOS-1.png"/>
+  - 卷名修改为MyVolume，格式为Mac OS Extended(日志)，分区为GUID；<div align=left><img 此处有图  src="https://github.com/sobravo/hackintosh/blob/master/img/5-4.jpg"/>
 - 制作Catalina安装U盘，执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
   - 此次有图
 - 挂载OpenCore的EFI分区，执行./MountEFI.command
