@@ -47,7 +47,6 @@
   - 这样会创建两个分区：MyVolume和EFI，EFI缺省未挂载，所以当前还看不见
   - 卷名修改为MyVolume，格式为Mac OS Extended(日志)，分区为GUID；<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/5-4.jpg"/>
 - 制作Catalina安装U盘，执行命令(目录名需要根据实际修改)：sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
-  - 此次有图
 - 挂载OpenCore的EFI分区，执行./MountEFI.command
   - 这时候会出现一个空的EFI分区
  
@@ -85,7 +84,7 @@
   - 选择4：Dump DSDT
   - 选择3：FakeEC
   - 选择2：PluginType
-  - 要确认导出的文件在哪，可能有点问题，我好想直接取的是OC里的，这样也行？
+  - 导出的文件存放在Results子目录下
 - 根据平台类型，挑选涉及的aml文件，我这里选的是Desktop-CoffeLake
 - 复制aml文件到OC对应的目录
 - config.plist中需要添加相应配置，遗留到第9章处理
