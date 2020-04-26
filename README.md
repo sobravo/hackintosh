@@ -72,8 +72,7 @@
     - Firmware drivers(.efi) 放在Drivers目录
   - Kext必须从“驱动名.kext”这个目录作为顶层节点开始复制，如VirtualSMC.kext，里面包括Contents子目录，info.plist，MacOS子目录下是实际的驱动文件
   - 类似“IntelMausiEthernet”（Intel以太网卡驱动）有点特殊，Github上归档的是xcode工程，我是下载后只有用xcode打开，才能看到xx目录下的xxx的驱动。
-- 最终的完成清单如下，<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/7-1.jpg"/>
-- aml文件有重复，需要单独说明
+- 最终的完成清单如下，<div align=left><img  src="https://github.com/sobravo/hackintosh/blob/master/img/7-2.jpg"/>
 - config.plist中需要添加相应配置，遗留到第9章处理
 
 ### 8. 配置SSDTs
@@ -87,6 +86,7 @@
   - 导出的文件存放在Results子目录下
 - 根据平台类型，挑选涉及的aml文件，我这里选的是Desktop-CoffeLake
 - 复制aml文件到OC对应的目录
+- aml文件有重复，需要单独说明
 - config.plist中需要添加相应配置，遗留到第9章处理
 
 ### 9. 设置CONFIG.PLIST（Coffee Lake配置）
