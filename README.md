@@ -149,3 +149,5 @@
 - https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI
 ### Hint
 - Make sure to have kexts like Lilu and VoodooPS2Controller are to be injected first before kexts that require them like WhateverGreen, VirtualSMC, keyboard/Mouse/Trackpad and etc.
+
+- 2.3.2.2 没核心显卡的用户，带f的cpu (e.g. 9100f 9900kf), Xeon等不带核心显卡的用户不需要管这项，直接把AAPL,ig-platform-id选项卡删了。https://blog.xjn819.com/?p=543
