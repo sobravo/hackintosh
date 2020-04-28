@@ -141,3 +141,4 @@
 ### 待研究文章
 - http://www.memacx.com/thread-7571-1-1.html
 - https://insanelymac.gitbook.io/opencore-guide/
+- https://www.reddit.com/r/hackintosh/comments/dsvg95/really_want_to_use_this_5700xt/
