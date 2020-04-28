@@ -146,3 +146,6 @@
 - https://www.insanelymac.com/forum/topic/343461-kext-tired-of-low-geekbench-scores-use-radeonboost/
 - https://heipg.cn/drivers/whatevergreen-137.html
 - https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Radeon.en.md
+
+### Hint
+- Make sure to have kexts like Lilu and VoodooPS2Controller are to be injected first before kexts that require them like WhateverGreen, VirtualSMC, keyboard/Mouse/Trackpad and etc.
