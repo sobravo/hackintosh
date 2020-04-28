@@ -142,3 +142,4 @@
 - http://www.memacx.com/thread-7571-1-1.html
 - https://insanelymac.gitbook.io/opencore-guide/
 - https://www.reddit.com/r/hackintosh/comments/dsvg95/really_want_to_use_this_5700xt/
+- https://www.tonymacx86.com/threads/amd-radeon-rx5700-or-5700xt.285976/
