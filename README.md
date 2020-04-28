@@ -144,3 +144,4 @@
 - https://www.reddit.com/r/hackintosh/comments/dsvg95/really_want_to_use_this_5700xt/
 - https://www.tonymacx86.com/threads/amd-radeon-rx5700-or-5700xt.285976/
 - https://www.insanelymac.com/forum/topic/343461-kext-tired-of-low-geekbench-scores-use-radeonboost/
+- https://heipg.cn/drivers/whatevergreen-137.html
