@@ -151,3 +151,5 @@
 - Make sure to have kexts like Lilu and VoodooPS2Controller are to be injected first before kexts that require them like WhateverGreen, VirtualSMC, keyboard/Mouse/Trackpad and etc.
 
 - 2.3.2.2 没核心显卡的用户，带f的cpu (e.g. 9100f 9900kf), Xeon等不带核心显卡的用户不需要管这项，直接把AAPL,ig-platform-id选项卡删了。https://blog.xjn819.com/?p=543
+
+- 目前已经解决问题，有色带问题的显示器是因为被mac默认设置成了10位色深，而显示器仅支持8位，所以出现了色带，解决办法下载ResXtreme，修改显示器色深为8位，修改完可以删除软件，重启不影响。
