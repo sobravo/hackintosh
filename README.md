@@ -150,7 +150,7 @@
     - UUID={YOUR_UUID} none ntfs rw,noauto
     - Restart your system and the Windows partition will no longer automatically mount.
 - Use slide=0 as as a boot flag to avoid any random freezes when using macOS on the Z390 platform.
-
+- Enabling USB3 Speeds & Detection on Z390 Ports: To get USB3 speeds working on a motherboard the USB ports must be mapped correctly with an SSDT-USB.aml file placed in/Volumes/EFI/EFI/CLOVER/APCI/patched/
 
 ### 待研究文章
 - http://www.memacx.com/thread-7571-1-1.html
