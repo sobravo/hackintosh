@@ -149,7 +149,7 @@
     - Enter sudo vifs to add the following line to /etc/fstab:
     - UUID={YOUR_UUID} none ntfs rw,noauto
     - Restart your system and the Windows partition will no longer automatically mount.
-  
+- Use slide=0 as as a boot flag to avoid any random freezes when using macOS on the Z390 platform.
 
 
 ### 待研究文章
