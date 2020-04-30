@@ -136,8 +136,21 @@
 
 ### 12. 后处理
 - 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫
-脱离U盘启动
+- 脱离U盘启动
 - 优化
+- Enable TRIM for Solid State Drives
+  - Open Terminal and enter the following command:
+  - sudo trimforce enable
+  - Verify TRIM was enabled in System Report:
+  - Hide Windows Drive in macOS
+    - Follow these instructions to prevent the Windows drive from automatically mounting in macOS:
+    - Open Terminal and enter the following command to get the Volume UUID:
+    - diskutil info /Volumes/{YOUR_WINDOWS_DRIVE_NAME}
+    - Enter sudo vifs to add the following line to /etc/fstab:
+    - UUID={YOUR_UUID} none ntfs rw,noauto
+    - Restart your system and the Windows partition will no longer automatically mount.
+  
+
 
 ### 待研究文章
 - http://www.memacx.com/thread-7571-1-1.html
