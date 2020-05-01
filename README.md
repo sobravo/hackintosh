@@ -138,7 +138,7 @@
 - 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫
 - 脱离U盘启动
 - 优化
-  - EFI Version在win下gpu-z可以查看
+  - EFI Version在win下gpu-z可以查看，win下gpu-z看 鼠标停留在biso version上面 上面那串是efiversion 下面是rom
   - 电源管理的参数没有注入，看他另外的一个帖子
 - Enable TRIM for Solid State Drives
   - Open Terminal and enter the following command:
