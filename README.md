@@ -138,6 +138,7 @@
 - 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫
 - 脱离U盘启动
 - 优化
+  - EFI Version在win下gpu-z可以查看
 - Enable TRIM for Solid State Drives
   - Open Terminal and enter the following command:
   - sudo trimforce enable
