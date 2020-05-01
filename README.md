@@ -139,6 +139,7 @@
 - 脱离U盘启动
 - 优化
   - EFI Version在win下gpu-z可以查看
+  - 电源管理的参数没有注入，看他另外的一个帖子
 - Enable TRIM for Solid State Drives
   - Open Terminal and enter the following command:
   - sudo trimforce enable
