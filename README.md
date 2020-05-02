@@ -135,14 +135,17 @@
   - 安装的最后步骤需要访问网络，由于我没有替换成黑苹果免驱的无线网卡，只能使用有线网络，如果不具备这个条件，一个规避的方法是使用无线中继路由器，无线网络转有线。这里推荐一个产品，中兴的H570A中继路由器，2014年出品，早就停产了，不过竟然还能在京东上扎到。它最大的特点是支持USB供电，这样直接用电脑后部的USB口供电，路由器的网口接电脑的网口，这样就不依赖市电和网络布线使用有线网络了，而且这个路由器非常小巧，长宽高=5.2CM*3.1CM*2.3CM，可以直接挂在机箱后部非常简洁，对我来说简直是神器。支持双频，5G带宽433M，勉勉强强也够用了。
 
 ### 12. 后处理
-- 优化
+- 5700XT跑分优化
   - EFI Version在win下gpu-z可以查看，win下gpu-z看 鼠标停留在biso version上面 上面那串是efiversion 下面是rom
   - 电源管理的参数没有注入，看他另外的一个帖子
+  
 - Enable TRIM for Solid State Drives
   - Open Terminal and enter the following command:
   - sudo trimforce enable
   - Verify TRIM was enabled in System Report:
+  
 - 支持DRM：在config.plist的Device中的独立显卡中加上：shikigva=128，DRM不生效，跑分快了2000分，不知道跟这个有没有关系；
+ -shikigva=40 + shiki-id=Mac-7BA5B2D9E42DDD94
 - 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫
 - 脱离U盘启动
 
@@ -175,3 +178,4 @@
 - 目前已经解决问题，有色带问题的显示器是因为被mac默认设置成了10位色深，而显示器仅支持8位，所以出现了色带，解决办法下载ResXtreme，修改显示器色深为8位，修改完可以删除软件，重启不影响。我的经验是，在clove里填入edid的参数重启后没有任何改变，必须注入显示器edid驱动才可以。
 
 - https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html
+
