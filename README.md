@@ -148,7 +148,9 @@
  -shikigva=40 + shiki-id=Mac-7BA5B2D9E42DDD94
 - 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫，-rad24 调试中，没有效果
 - 脱离U盘启动
+- BIOS reset or sent into Safemode after reboot/shutdownd:https://dortania.github.io/OpenCore-Desktop-Guide/troubleshooting/troubleshooting.html#bios-reset-or-sent-into-safemode-after-rebootshutdown
 
+- 键盘响应迟钝：可能跟蓝牙有关系
 
   - Hide Windows Drive in macOS
     - Follow these instructions to prevent the Windows drive from automatically mounting in macOS:
