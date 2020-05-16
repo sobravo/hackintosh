@@ -143,10 +143,12 @@
   - Open Terminal and enter the following command:
   - sudo trimforce enable
   - Verify TRIM was enabled in System Report:
-  
+- 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫，-rad24 调试中，没有效果
+  - 用的是这个方法，强制RGB输出：https://blog.skk.moe/post/hackintosh-fix-magenta-screen/：最简单的修复方法
+  - 生成的文件：DisplayVendorID-1c52
 - 支持DRM：在config.plist的Device中的独立显卡中加上：shikigva=128，DRM不生效，跑分快了2000分，不知道跟这个有没有关系；
  -shikigva=40 + shiki-id=Mac-7BA5B2D9E42DDD94
-- 设置帧缓冲深度：安装好之后默认是30位的，显示器只支持24位，所以颜色偏紫，-rad24 调试中，没有效果
+
 - 脱离U盘启动
 - BIOS reset or sent into Safemode after reboot/shutdownd:https://dortania.github.io/OpenCore-Desktop-Guide/troubleshooting/troubleshooting.html#bios-reset-or-sent-into-safemode-after-rebootshutdown
 
